@@ -1,0 +1,54 @@
+.friends__namesDisplay {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #e6e6e6;
+  background-color: #f7f7f7;
+}
+
+.friends__namesDisplay .namesDisplay__column {
+  display: flex;
+  align-items: center;
+}
+
+.friends__namesDisplay .namesDisplay__text {
+  margin-right: 20px;
+  color: #aaa;
+  font-size: 20px;
+}
+
+.friends__namesDisplay .fa-info-circle {
+  margin-right: 12px;
+  color: #c5c5c5;
+  font-size: 32px;
+}
+
+.friends__namesDisplay .fa-angle-right {
+  color: #c5c5c5;
+  font-size: 18px;
+}
+
+.friends__section-row .friends__section-header {
+  padding: 16px 0 16px 50px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.friends__section-header .friends__section-title {
+  color: #aaa;
+  font-size: 24px;
+}
+
+.friends__section-row .friends__section-column {
+  padding: 12px 25px;
+}
+
+.friends__section-row .friends__section-column img {
+  width: 80px;
+  margin-right: 27px;
+  border-bottom: 1px solid #e6e6e6;
+  border-radius: 50%;
+}
+
+.friends__section-row .friends__section-name {
+  font-size: 24px;
+}
