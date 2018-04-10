@@ -6,6 +6,7 @@
   background-color: #523737;
   color: #fff;
 }
+
 .top-header .header__top,
 .top-header .header__bottom {
   display: flex;
@@ -36,4 +37,15 @@
 
 .top-header .header__number {
   color: yellow;
+}
+
+.top-header.top-header--chat {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #a4c0d6;
+  color: #000;
+}
+
+.top-header.top-header--chat a {
+  text-decoration: none;
+  color: #000;
 }

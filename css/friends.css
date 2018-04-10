@@ -38,17 +38,67 @@
   font-size: 24px;
 }
 
-.friends__section-row .friends__section-column {
+.friends__section-row {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.friends__section-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 12px 25px;
+}
+
+.friends__section-column .friends__section-profile {
+  display: flex;
+  align-items: center;
 }
 
 .friends__section-row .friends__section-column img {
   width: 80px;
   margin-right: 27px;
-  border-bottom: 1px solid #e6e6e6;
   border-radius: 50%;
 }
 
 .friends__section-row .friends__section-name {
   font-size: 24px;
+}
+
+.friends__section-row .friends__section-tagline::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 26px;
+  left: -10px;
+  width: 0px;
+  height: 0px;
+  border-top: 10px solid transparent;
+  border-right: 10px solid #f0f0f0;
+  border-left: 10px solid none;
+  border-bottom: 10px solid transparent;
+}
+
+.friends__section-row .friends__section-tagline {
+  display: block;
+  position: relative;
+  padding: 28px 22px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+
+.friends__plusMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 140px;
+  right: 30px;
+  width: 80px;
+  height: 80px;
+  background-color: #fceb1b;
+  border-radius: 50%;
+}
+
+.friends__plusMenu i {
+  font-size: 30px;
 }

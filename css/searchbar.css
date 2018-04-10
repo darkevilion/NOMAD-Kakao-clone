@@ -4,6 +4,10 @@
   border-bottom: 1px solid #e6e6e6;
 }
 
+.search-bar.search-bar--more {
+  background-color: #fff;
+}
+
 .search-bar i {
   position: absolute;
   top: 32px;

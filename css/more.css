@@ -1,0 +1,93 @@
+.more__profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 30px;
+  border-bottom: 1px solid #e6e6e6;
+  background-color: #fff;
+}
+
+.more__profile img {
+  width: 100px;
+  margin-right: 35px;
+  border-radius: 50%;
+}
+
+.more__profile .profile__user-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.profile__user-container .profile__user {
+  display: flex;
+  flex-direction: column;
+}
+
+.more__profile i {
+  color: #473334;
+  font-size: 50px;
+}
+
+.profile__user .profile__username {
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.profile__user .profile__usermail {
+  color: #888;
+  font-size: 18px;
+}
+
+.more__options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 40px 35px 30px 35px;
+  border-bottom: 1px solid #e6e6e6;
+  background-color: #fff;
+}
+
+.more__options .more__option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more__options .more__option i {
+  margin-bottom: 30px;
+  color: #473334;
+  font-size: 50px;
+}
+
+.more__options .more__option .more__option-title {
+  color: #473334;
+  font-size: 18px;
+}
+
+.more__apps {
+  display: flex;
+  justify-content: flex-start;
+  padding: 40px 30px 25px;
+  border-bottom: 1px solid #e6e6e6;
+  background-color: #fff;
+}
+
+.more__apps .more__app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 70px;
+}
+
+.more__apps .more__app img {
+  width: 95px;
+  margin-bottom: 25px;
+}
+
+.more__apps .more__app .more__app-title {
+  color: #222;
+  font-size: 18px;
+}

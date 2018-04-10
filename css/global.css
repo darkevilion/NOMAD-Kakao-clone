@@ -2,3 +2,11 @@ body {
   padding: 121px 0 99px 0;
   font-family: "Open Sans", sans-serif;
 }
+
+body.body-chat {
+  background-color: #a4c0d6;
+}
+
+body.body-more {
+  background-color: #f2f2f2;
+}
